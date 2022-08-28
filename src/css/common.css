@@ -38,9 +38,19 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 18px;
+  justify-content: center;
+  gap: 15px;
 }
 
-.label:not(:last-child) {
-  padding-left: 10px;
+.field:not(:last-child) {
+  margin-right: 10px;
+}
+
+.value {
+  text-decoration: dotted;
+  font-weight: bold;
+}
+
+.label {
+  font-style: italic;
 }
