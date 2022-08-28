@@ -14,6 +14,12 @@ const refs = {
 let timerId = null;
 
 refs.startBtn.disabled = true;
+if ((refs.startBtn.disabled = false)) {
+  refs.startBtn.style.cssText = `
+      background-color: yellow;
+      color: blue;
+      border-color: blue`;
+}
 refs.startBtn.addEventListener('click', onStartClick);
 
 const options = {
@@ -27,10 +33,6 @@ const options = {
       return;
     }
     refs.startBtn.disabled = false;
-    refs.startBtn.style.cssText = `
-      background-color: yellow;
-      color: blue;
-      border-color: blue`;
   },
 };
 
