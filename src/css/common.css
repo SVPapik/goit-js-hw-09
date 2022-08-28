@@ -40,8 +40,9 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 15px;
-  border: dotted 2px solid;
+  gap: 5px;
+  border: black 2px dotted;
+  padding: 5px;
 }
 
 .field:not(:last-child) {
@@ -49,7 +50,6 @@ button {
 }
 
 .value {
-  text-decoration: dotted;
   font-weight: bold;
 }
 
