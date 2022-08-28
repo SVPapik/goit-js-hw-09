@@ -14,12 +14,6 @@ const refs = {
 let timerId = null;
 
 refs.startBtn.disabled = true;
-if (!refs.startBtn.disabled === true) {
-  refs.startBtn.style.cssText = `
-      background-color: yellow;
-      color: blue;
-      border-color: blue`;
-}
 refs.startBtn.addEventListener('click', onStartClick);
 
 const options = {

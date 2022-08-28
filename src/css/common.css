@@ -28,6 +28,9 @@ img {
 button {
   font-size: 18px;
   border-radius: 5px;
+  color: #569ff7;
+  border-color: #569ff7;
+  background-color: yellow;
 }
 
 .timer {
