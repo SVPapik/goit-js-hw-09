@@ -27,6 +27,10 @@ const options = {
       return;
     }
     refs.startBtn.disabled = false;
+    refs.startBtn.style.cssText = `
+      background-color: yellow;
+      color: blue;
+      border-color: blue`;
   },
 };
 
@@ -61,6 +65,7 @@ function onStartClick() {
     } else {
       clearInterval(timerId);
       Notify.success('Your time has come!');
+      return;
     }
   }, 1000);
 }

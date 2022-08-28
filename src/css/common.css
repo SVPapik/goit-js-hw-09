@@ -17,15 +17,15 @@ img {
   max-width: 100%;
 }
 
-.flatpickr-input {
+#datetime-picker {
   font-size: 18px;
   text-align: center;
   background-color: #569ff7;
-  color: #fafafa;
+  color: #fff;
   border-radius: 5px;
 }
 
-button[data-start] {
+button {
   font-size: 18px;
   border-radius: 5px;
 }
@@ -36,4 +36,11 @@ button[data-start] {
 
 .field {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.label:not(:last-child) {
+  padding-left: 10px;
 }
