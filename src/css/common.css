@@ -30,6 +30,12 @@ button {
   border-radius: 5px;
 }
 
+button :enabled {
+  color: #569ff7;
+  background-color: yellow;
+  border-color: #569ff7;
+}
+
 .timer {
   display: flex;
 }

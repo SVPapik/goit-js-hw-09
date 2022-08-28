@@ -10,16 +10,9 @@ const refs = {
   secondsEl: document.querySelector('[data-seconds]'),
   inputDate: document.querySelector('#datetime-picker'),
 };
-
 let timerId = null;
 
 refs.startBtn.disabled = true;
-if (refs.startBtn.disabled === false) {
-  refs.startBtn.style.cssText = `
-  color: #569ff7;
-  border-color: #569ff7;
-  background-color: yellow;`;
-}
 refs.startBtn.addEventListener('click', onStartClick);
 
 const options = {
