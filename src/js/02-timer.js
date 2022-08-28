@@ -14,9 +14,9 @@ const refs = {
 let timerId = null;
 
 refs.startBtn.disabled = true;
-while (refs.startBtn.disabled === false) {
+if (refs.startBtn.disabled === false) {
   refs.startBtn.style.cssText = `
-      color: #569ff7;
+  color: #569ff7;
   border-color: #569ff7;
   background-color: yellow;`;
 }
