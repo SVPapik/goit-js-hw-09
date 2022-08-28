@@ -25,7 +25,7 @@ const options = {
       Notify.failure('Please choose a date in the future');
       return;
     }
-    refs.startBtn.disabled = false;
+    refs.startBtn.enabled = true;
   },
 };
 
