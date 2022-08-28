@@ -16,3 +16,24 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.flatpickr-input {
+  font-size: 18px;
+  text-align: center;
+  background-color: #569ff7;
+  color: #fafafa;
+  border-radius: 5px;
+}
+
+button[data-start] {
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+}
